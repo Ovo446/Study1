@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TED English Learner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>TED Learning Platform</h1>
+        <div class="user-info">
+            <span>🔥 Streak: {{ streak }} days</span>
+            <a href="/vocabulary">My Vocabulary</a>
+        </div>
+    </header>
+
+    <div class="article">
+        <h2>The Power of Habit</h2>
+        <p class="content">
+            Every <span class="word">word</span> you click will show definition.
+            Try clicking any <span class="word">English</span> word in this text.
+        </p>
+        <button class="speak-btn" onclick="speakText()">🔊 Read Aloud</button>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
